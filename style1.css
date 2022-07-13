@@ -1,0 +1,98 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+body {
+  margin-left: 30px;
+}
+.logo-section {
+  margin-top: 40px;
+  margin-bottom: 22px;
+}
+.logo-section .form-logo img {
+  width: 140px;
+}
+.form-section {
+  background: #6c1d1d;
+  padding: 5% 5% 35%;
+}
+.form-row {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 50px;
+}
+.form-column1 {
+  width: 50%;
+  margin: 18% 10% 0 3%;
+}
+.form-column2 {
+  width: 50%;
+}
+.form-h1 {
+  font-size: 5rem;
+  font-weight: 900;
+  color: #ffffffcf;
+  font-family: sans-serif;
+}
+.form-para {
+  font-family: sans-serif;
+  line-height: 27px;
+  font-size: 20px;
+}
+.form-h2 {
+	font-size: 1.5rem;
+	font-family: sans-serif;
+	font-weight: 800;
+	margin-bottom: 2px;
+	width: 75%;
+	margin-top: 12px;
+  }
+.form-h3 {
+  font-size: 2rem;
+  font-family: sans-serif;
+  font-weight: 800;
+  margin-bottom: 12px;
+}
+.white-text {
+  color: #ffffffc7;
+  margin-bottom: 12px;
+}
+input {
+  background: #6c1d1d;
+  border: solid 2px #fff;
+}
+.form-box {
+  margin-bottom: 3%;
+  height: 8%;
+  width: 100%;
+  color: white;
+  margin-top: 12px;
+}
+.form-box1 {
+  margin-bottom: 3%;
+  height: 11%;
+  width: 100%;
+  color: white;
+  margin-top: 12px;
+}
+.form-button {
+  font-size: 1rem;
+  padding: 3% 10%;
+  font-size: 1.5rem;
+  word-spacing: 2px;
+  margin-top: 50px;
+}
+.check {
+  float: right;
+}
+.checkbox {
+  display: contents;
+}
+.btn {
+  padding-right: 10px;
+}
+label {
+  color: #ffffffc7;
+  margin-bottom: 3px;
+}
