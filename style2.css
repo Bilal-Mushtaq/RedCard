@@ -100,3 +100,79 @@ body {
   padding: 155px;
   border-left: 2px solid wheat;
 }
+/*    Responsive Web Design    */
+/*   media query for tablet */
+@media screen and (max-width: 700px) {
+  .top-section {
+    width: 100%;
+    text-align: center;
+    padding: 40px;
+    border-top: 5px solid wheat;
+    height: auto;
+  }
+  .top-section .logo-img {
+    text-align: center;
+    width: 100%;
+  }
+  .top-section .top-heading {
+    color: #ffeded;
+  }
+  .top-section .top-heading h1 {
+    margin-top: 20px;
+    font-size: 70px;
+    margin-bottom: 10px;
+  }
+  .top-section .subtitle h1 {
+    font-size: 37px;
+  }
+  .top-section .main-content {
+    color: #a1a8a8;
+  }
+  .top-section .main-content p {
+    line-height: 30px;
+    text-align: start;
+  }
+  .footer-img {
+    display: none;
+  }
+  .middle-section {
+    margin: 60px 20px 40px 20px;
+  }
+  .middle-section .clubs {
+    flex-wrap: wrap;
+  }
+  .middle-section .heading {
+    margin-bottom: 30px;
+  }
+  .last-section {
+    font-size: 24px;
+    padding: 40px;
+  }
+}
+
+/*   media query for mobile and smaller devices */
+@media screen and (max-width: 480px) {
+  .top-section {
+    padding: 20px 20px 60px 20px;
+  }
+  .top-section .logo-img img {
+    width: 100%;
+    height: auto;
+    max-width: 200px;
+  }
+  .top-section .top-heading h1 {
+    margin-top: 20px;
+    font-size: 50px;
+    margin-bottom: 10px;
+  }
+  .top-section .subtitle h1 {
+    font-size: 28px;
+  }
+  .middle-section {
+    margin: 60px 20px 40px 20px;
+  }
+  .last-section {
+    font-size: 15px;
+    padding: 30px;
+  }
+}
